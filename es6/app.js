@@ -49,6 +49,8 @@ let api = ( to_transform ) => {
             } );
 
             renderImages();
+
+            return this;
         },
 
         flipV: function() {
@@ -57,6 +59,8 @@ let api = ( to_transform ) => {
             } );
 
             renderImages();
+
+            return this;
         },
 
         rotateCW: function() {
@@ -65,6 +69,8 @@ let api = ( to_transform ) => {
             } );
 
             renderImages();
+
+            return this;
         },
 
         rotateCCW: function() {
@@ -73,6 +79,8 @@ let api = ( to_transform ) => {
             } );
 
             renderImages();
+
+            return this;
         }
     }
 };
